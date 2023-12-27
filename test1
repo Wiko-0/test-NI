@@ -1,0 +1,37 @@
+using System;
+
+namespace App
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+Console.Write("podaj numer dnia ");
+double day = Console.ReadLine();
+switch(day)
+{
+  case 1:
+    Console.WriteLine("Dziś jest poniedziałek");
+    break;
+  case 2:
+    Console.WriteLine("Dziś jest wtorek");
+    break;
+  case 3:
+    Console.WriteLine("Dziś jest środa");
+    break;
+  case 4:
+    Console.WriteLine("Dziś jest czwartek");
+    break;
+  case 5:
+    Console.WriteLine("Dziś jest piątek");
+    break;
+  case 6:
+    Console.WriteLine("Dziś jest sobota");
+    break;
+  case 0: case 7:
+    Console.WriteLine("Dziś jest niedziela");
+    break;
+}
+    }
+  }
+}
